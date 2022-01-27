@@ -1,17 +1,29 @@
 <template>
   <footer>
-    <div class="container">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque recusandae quibusdam voluptatibus minus assumenda, laborum corporis sit quod? Est facere laborum vitae consectetur delectus at aliquid omnis enim rem accusamus.</div>
+    <FooterComics />
+    <FooterCentrale />
+    <FooterFinale />
   </footer>
 </template>
 
 <script>
+import FooterComics from './gruppo_footer/FooterComics.vue';
+import FooterCentrale from './gruppo_footer/FooterCentrale.vue';
+import FooterFinale from './gruppo_footer/FooterFinale.vue';
+
+
 export default {
-    name: 'Footer'
+    name: 'Footer',
+    components: {
+        FooterComics,
+        FooterCentrale,
+        FooterFinale
+      }
 }
 </script>
 
 <style lang="scss" scoped>
-footer{
-  padding: 35px 0;
-}
+@import '../assets/style/partials/variables.scss';
+
+
 </style>
