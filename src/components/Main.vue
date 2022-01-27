@@ -1,13 +1,7 @@
 <template>
   <main>
     <div class="container">
-      <section>
-        <h2>Lista prodotti</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae magni laudantium delectus. Quisquam, totam, nam beatae rem dolorum quasi libero magni maiores et voluptatem quis pariatur voluptates, provident assumenda? Voluptate!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae magni laudantium delectus. Quisquam, totam, nam beatae rem dolorum quasi libero magni maiores et voluptatem quis pariatur voluptates, provident assumenda? Voluptate!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae magni laudantium delectus. Quisquam, totam, nam beatae rem dolorum quasi libero magni maiores et voluptatem quis pariatur voluptates, provident assumenda? Voluptate!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae magni laudantium delectus. Quisquam, totam, nam beatae rem dolorum quasi libero magni maiores et voluptatem quis pariatur voluptates, provident assumenda? Voluptate!</p>
-      </section>
+      <h2>--&gt; Content goes here &lt;--</h2>
     </div>
   </main>
 </template>
@@ -20,10 +14,13 @@ export default {
 
 <style lang="scss" scoped>
   main{
-    margin-top: 30px;
+    background-color: #000;
+    margin-top: 4px;
+    height: 140px;
   }
   h2{
-    text-align: center;
-    margin: 20px 0;
+    color: #fff;
+    line-height: 140px;
+    vertical-align: middle;
   }
 </style>
