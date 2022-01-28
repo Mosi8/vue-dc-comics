@@ -22,7 +22,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/style/partials/variables.scss';
 
 .container {
   height: 120px;

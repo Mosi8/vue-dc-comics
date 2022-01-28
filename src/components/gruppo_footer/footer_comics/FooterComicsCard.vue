@@ -1,13 +1,16 @@
 <template>
   <footer>
-    <img src="../../../assets/img/buy-comics-digital-comics.png">
-    <p>DIGITAL COMICS</p>
+    <img :src="card.img">
+    <p>{{card.text}}</p>
   </footer>
 </template>
 
 <script>
 export default {
-    name: 'FooterComicsPrimo'
+    name : 'FooterComicsCard',
+    props : {
+        card : Object,
+    },
 }
 </script>
 
@@ -16,20 +19,17 @@ export default {
 
 footer{
   background-color: $mainColor;
-  height: 170px;
   vertical-align: middle;
-  line-height: 170px;
 
   img {
-    height: 80px;
-    line-height: 170px;
+    width: 20%;
     vertical-align: middle;
   }
 
   p {
     display: inline-block;
     color: #fff;
-    font-size: 12px;
+    font-size: 10px;
     margin: 0 10px;
   }
 }

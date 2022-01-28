@@ -112,36 +112,40 @@ export default {
 footer {
   background-image: url('../../assets/img/footer-bg.jpg');
   background-position: center;
-  height: 350px;
   overflow: hidden;
+  height: 390px;
   margin: auto 0;
 
-  h4 {
-    color: #fff;
-    margin: 30px 0 20px 0;
-  }
+  .container {
+    height: 100%;
 
-  .primaColonna,
-  .secondaColonna,
-  .terzaColonna {
-    float: left;
-    margin-right: 20px;
-  }
+      h4 {
+        color: #fff;
+        margin: 30px 0 20px 0;
+      }
 
-  ul {
-    list-style-type: none;
-    margin-bottom: 20px;
-  }
+      .primaColonna,
+      .secondaColonna,
+      .terzaColonna {
+        float: left;
+        margin-right: 20px;
+      }
 
-  a {
-    text-decoration: none;
-    color: rgb(140, 140, 140);
-    font-size: 10px;
-  }
+      ul {
+        list-style-type: none;
+        margin-bottom: 20px;
+      }
 
-  img {
-    float: right;
-    transform: translateY(-15%);
+      a {
+        text-decoration: none;
+        color: rgb(140, 140, 140);
+        font-size: 10px;
+      }
+
+      img {
+        float: right;
+        transform: translateY(-15%);
+      }
   }
   
 }
